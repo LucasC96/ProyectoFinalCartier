@@ -1,0 +1,66 @@
+[
+    {
+    "id": 1,
+    "nombre": "Blood Sugar Sex Magik",
+    "precio": 3000,
+    "año": 1991,
+    "img": "https://upload.wikimedia.org/wikipedia/en/5/5e/RHCP-BSSM.jpg",
+    "cantidad": 1
+    },
+    {
+    "id": 2,
+    "nombre": "One hot minute",
+    "precio": 2500,
+    "año": 1995,
+    "img": "https://upload.wikimedia.org/wikipedia/en/8/8a/Rhcp7.jpg",
+    "cantidad": 1
+    },
+    {
+    "id": 3,
+    "nombre": "Californication",
+    "precio": 4000,
+    "año": 1999,
+    "img": "https://upload.wikimedia.org/wikipedia/en/d/df/RedHotChiliPeppersCalifornication.jpg",
+    "cantidad": 1
+    },
+    {
+    "id": 4,
+    "nombre": "By the way",
+    "precio": 3500,
+    "año": 2002,
+    "img": "https://upload.wikimedia.org/wikipedia/en/2/23/Rhcp9.jpg",
+    "cantidad": 1
+    },
+    {
+    "id": 5,
+    "nombre": "Stadium arcadium",
+    "precio": 4500,
+    "año": 2006,
+    "img": "https://upload.wikimedia.org/wikipedia/en/e/e6/Stadiumarcadium.jpg",
+    "cantidad": 1
+    },
+    {
+    "id": 6,
+    "nombre": "I'm with You",
+    "precio": 2000,
+    "año": 2011,
+    "img": "https://upload.wikimedia.org/wikipedia/en/7/74/RHCP_I%27m_With_You_Cover.jpg",
+    "cantidad": 1
+    },
+    {
+    "id": 7,
+    "nombre": "The getaway",
+    "precio": 4100,
+    "año": 2016,
+    "img": "https://upload.wikimedia.org/wikipedia/en/a/ae/Thegetawayalbum.jpg",
+    "cantidad": 1
+    },
+    {
+    "id": 8,
+    "nombre": "Unlimited love",
+    "precio": 4500,
+    "año": 2022,
+    "img": "https://upload.wikimedia.org/wikipedia/en/1/1f/Red_Hot_Chili_Peppers_-_Unlimited_Love.png",
+    "cantidad": 1
+    }
+]

@@ -1,0 +1,162 @@
+body {
+    background-image: url(https://r4.wallpaperflare.com/wallpaper/65/205/242/red-hot-chili-peppers-music-album-covers-swimming-pool-wallpaper-d9e0f8ad91fa5dfb1657b84f60d1069d.jpg);
+}
+nav {
+    justify-content: flex-start;
+    color: #CD0404;
+    background-color: #000;
+}
+.tienda-alb {
+    display:flex;
+    justify-content:space-around;
+    flex-wrap: wrap;
+    margin-top: 30px;
+    margin-left: 90px;
+    margin-right: 90px;
+    background-color: #CD0404;
+    border-radius: 5px;
+}
+.card {
+    box-shadow: 8px 8px 8px 2px rgba(0, 0, 0, 0.7);
+    text-align: center;
+    margin: 20px 30px 10px 30px;
+    border:none;
+}
+
+.price{
+    font-size: 25px;
+}
+  
+.card button {
+    padding: 12px;
+    color: white;
+    background-color: #000;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+}
+  
+.card button:hover {
+    opacity: 0.7;
+}
+
+.modal-container {
+    width: 60%;
+    margin: 0 auto;
+    max-height: 650px;
+    color: #ad1d1d;
+    background-color: #121212;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: fixed;
+    overflow: auto;
+    z-index: 9;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    scrollbar-color: none;
+  }
+  
+  .modal-container::-webkit-scrollbar {
+    display: none;
+  }
+  .modal-header {
+    background-color: #ad1d1d;
+    color: #fff;
+    width: 100%;
+    border: none;
+  }
+  
+  .modal-header-button {
+    cursor: pointer;
+  }
+  
+ .modal-content {
+    display: flex;
+    flex-direction:row;
+    justify-content: space-around;
+    align-items: center;
+    width: 70%;
+    height: 302px;
+    margin: 10px;
+  }
+
+  .total-content {
+    font-size: 25px;
+    padding: 20px;
+    text-align: center;
+    padding-top: 20px;
+  }
+
+  .delete-product {
+    cursor: pointer;
+  }
+  .ver-carrito {
+    cursor: pointer;
+  }
+  span {
+    cursor: pointer;
+  }
+  
+  .cantidad-productos {
+    background-color: red;
+    color: white;
+    border-radius: 50%;
+    font-size: 12px;
+    padding: 4px;
+    top: 37px;
+    right: 14px;
+    position: absolute;
+    display: none;
+  }
+
+  .swal2-popup {
+    background-color:#121212;
+    border-radius: 15px;
+    color: #fff;
+  }
+  .swal2-popup img {
+    border-radius: 15px;
+  }
+  .swal2-styled.swal2-confirm {
+    background-color: #fff;
+    color: #CD0404;
+    }
+
+  section {
+      height: 30px;
+      margin-bottom: -10px;
+  }
+
+  .formulario-compra {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    font-size: 23px;
+  }
+  
+  .formulario-input {
+    margin-bottom: 10px;
+    width: 300px;
+    height: 30px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 5px;
+  }
+
+  .finalizarButton {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-top: 20px;
+    width: 150px;
+    height: 40px;
+    background-color: #CD0404;
+    color: #fff;
+    font-size: 17px;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
